@@ -6,6 +6,10 @@
 }
 body{
     background: #08080C;
+    
+}
+a{
+    text-decoration: none;
 }
 header{
     justify-content: space-between;
@@ -49,4 +53,114 @@ nav a {
 }
 .article{
     display: flex;
+}
+#menu {
+    display: none;
+}
+#login{
+    margin-right: 32px;
+    background-color: #08080C;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+#signup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(30, 225, 179);
+    color: black;
+    width: 103px;
+    height: 42px;
+    border-radius: 3px;
+    font-size: 14px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.line {
+    width: 245px;
+    height: 3px;
+    background-color: rgba(81, 81, 81);
+    border-radius: 100px;
+    margin-top: 10px;
+    margin-bottom: 115px;
+}
+.line0 {
+    width: 157px;
+    height: 3px;
+    background-color: rgba(30, 225, 179);
+    border-radius: 100px;
+}
+@media screen and (max-width:1580px) {
+    main {
+        flex-direction: column-reverse;
+        padding: 0 200px;
+        max-width: 1720px;
+        margin-left: 0;
+    }    
+    .main_content {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width:1350px) {
+    #menu {
+        display: block;
+    }
+    .nav_a {
+        display: none;
+    }
+}
+@media screen and (max-width:940px) {
+    .line {
+        width: 126px;
+        margin-bottom: 56px;
+    }
+    .subline {
+        width: 80px;
+    }
+    #lozung {
+        font-size: 30px;
+        margin-bottom: 47px;
+    }
+    .img0 {
+        margin-right: 40px;
+    }
+    .img1 {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .img0 {
+        width: 50px;
+        height: 50px;
+    }
+    .img0 img {
+        width: 30px;
+        height: 30px;
+    }
+    main {
+        padding: 0 50px;
+        max-width: 100%;
+    }  
+    header {
+        padding: 0 50px;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    main {
+        padding: 0 23px;
+    }  
+    header {
+        padding: 0 23px;
+    }
 }

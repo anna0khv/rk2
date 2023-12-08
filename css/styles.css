@@ -31,6 +31,15 @@ nav a {
 #nav_about{
     color: #1EE1B3;
 }
+nav a:last-child {
+    margin-right: 0;
+}
+.log {
+    display: flex;
+    width: auto;
+    align-items: center;
+    font-weight: 900;
+}
 #lozung {
     font-size: 3rem;
     font-style: normal;
@@ -54,8 +63,17 @@ nav a {
 .article{
     display: flex;
 }
+.article p{
+    font-size: 15px;
+    line-height: 22.5px;
+    color: #fff;
+    display: flex;
+}
 #menu {
     display: none;
+    background-color: #08080C;
+    color: #fff;
+    border: none;
 }
 #login{
     margin-right: 32px;
@@ -81,6 +99,14 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
+.main_wrapper {
+    justify-content: space-between;
+    padding: 0 150px;
+    max-width: 1820px;
+    width: 100%;
+    margin-left: -150px;
+    display: flex;
+}
 .line {
     width: 245px;
     height: 3px;
@@ -95,12 +121,20 @@ line-height: normal;
     background-color: rgba(30, 225, 179);
     border-radius: 100px;
 }
+.img1 img {
+    width: 100%;
+    max-width: 500px;
+}
+.img0{
+    margin-right: 4rem;
+    margin-bottom: 5rem;
+}
 @media screen and (max-width:1580px) {
     main {
         flex-direction: column-reverse;
         padding: 0 200px;
         max-width: 1720px;
-        margin-left: 0;
+        margin-left: 2rem;
     }    
     .main_content {
         display: flex;
@@ -108,7 +142,6 @@ line-height: normal;
         margin-left: 0;
     }
 }
-
 @media screen and (max-width:1350px) {
     #menu {
         display: block;
@@ -136,7 +169,6 @@ line-height: normal;
         margin-top: 60px;
     }
 }
-
 @media screen and (max-width:850px) {
     .img0 {
         width: 50px;
@@ -155,7 +187,6 @@ line-height: normal;
         max-width: 100%;
     }
 }
-
 @media screen and (max-width:450px) {
     main {
         padding: 0 23px;

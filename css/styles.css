@@ -1,0 +1,52 @@
+:root{
+    font-size: 62.5%;
+    color: #FFF;
+    font-family: Barlow;
+    
+}
+body{
+    background: #08080C;
+}
+header{
+    justify-content: space-between;
+    display: flex;
+    margin: 0 auto;
+    padding: 0 20rem;
+    max-width: 1920px;
+    height: 7rem;
+}
+nav {
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+nav a {
+    margin-right: 9.8rem;
+    color: #fff;
+}
+#nav_about{
+    color: #1EE1B3;
+}
+#lozung {
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    line-height: 60px;
+    margin-top: 60px;
+}
+.container_for_text h2{
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container_for_text p{
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%;
+}
+.article{
+    display: flex;
+}
